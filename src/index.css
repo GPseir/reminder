@@ -1,0 +1,47 @@
+body {
+    background-image: url('./images/rem.jpg');
+    background-color: rgba(255, 255, 255, 0.27);
+    background-blend-mode: lighten;
+}
+
+.App {
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    background-color: #F6EF7E;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 26px;
+}
+
+input {
+    margin: 15px;
+}
+
+.reminder-form {
+    padding: 15px;
+}
+
+.item {
+    background-color: rgb(255, 250, 171);
+    border-color: rgba(80, 80, 80, 0.3);
+}
+
+.list-item {
+    display: inline-block;
+}
+
+
+.delete-button {
+    float: right;
+    padding-left: 5px;
+}
+
+.date {
+    color: rgb(146, 151, 156)
+}
